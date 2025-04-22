@@ -8,6 +8,7 @@ html {
 }
 body {
     height: 100vh;
+    border: 0;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -98,6 +99,9 @@ footer {
     html {
         font-size: 10px;
     }
+    body {
+        margin-bottom: 0;
+    }
     .navbar ul{
         display: none;
         flex-direction: column;
@@ -109,7 +113,7 @@ footer {
         top: 40px;
         right: 20px;
         background: #2b2c28;
-        height: 90vh;
+        height: 60vh;
         width: 50%;
         color: #fff;
         padding: 1rem;
@@ -123,8 +127,14 @@ footer {
         display: block;
         cursor: pointer;
     }
+    #hero {
+        min-height: 50vh;
+    }
+    .container {
+        min-height: 40vh
+    }
     #card {
-        min-height: 30vh;
+        height: 20vh;
         font-size: 1rem;
         flex: 1;
     }
