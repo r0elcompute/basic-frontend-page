@@ -23,6 +23,7 @@ body {
 }
 .logo {
     font-family: Nunito;
+    font-size: 1.5rem;
 }
 .burger {
     display: none;
@@ -38,6 +39,7 @@ body {
 .navbar ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: Roboto;
     font-size: 1rem;
 }
 .navbar ul li a:hover {
@@ -92,6 +94,10 @@ footer {
     color: #fff;
     height: 2rem;
     width: 100%;
+}
+footer small {
+    font-size: 1rem;
+    font-family: Nunito;
 }
 
 /* responsiveness */
