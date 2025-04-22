@@ -6,7 +6,9 @@ html {
     font-size: 16px;
 }
 body {
-    min-height: 100vh;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .navbar {
     display: flex;
@@ -16,6 +18,9 @@ body {
     height: 3rem;
     max-height: 4rem;
     color: #fff;
+}
+.burger {
+    font-size: 2rem;
 }
 .navbar ul {
     display: flex;
@@ -51,12 +56,36 @@ body {
     margin: 2rem 3rem;
 }
 #card {
-    background-color: #d5c6e0;
+    background-color: #e5e6e4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     border-radius: 0.5rem;
     height: 10rem;
+    max-height: 30rem;
     padding: 2rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2c28;
+    color: #fff;
+    height: 2rem;
+    width: 100%;
+}
+
+/* responsiveness */
+@media (max-width: 720px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #card {
+        min-height: 30vh;
+        font-size: 1rem;
+    }
 }
