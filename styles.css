@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,11 @@ body {
     max-height: 4rem;
     color: #fff;
 }
+.logo {
+    font-family: Nunito;
+}
 .burger {
+    display: none;
     font-size: 2rem;
 }
 .navbar ul {
@@ -49,6 +54,12 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+#hero h1 {
+    font-family: Sigmar;
+}
+#hero p {
+    font-family: Nunito;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -65,6 +76,12 @@ body {
     height: 10rem;
     max-height: 30rem;
     padding: 2rem;
+}
+#card h2 {
+    font-family: Nunito;
+}
+#card p {
+    font-family: Nunito;
 }
 footer {
     display: flex;
@@ -84,8 +101,13 @@ footer {
     .navbar ul{
         display: none;
     }
+    .burger {
+        margin-right: 0.4rem;
+        display: block;
+    }
     #card {
         min-height: 30vh;
         font-size: 1rem;
+        flex: 1;
     }
 }
