@@ -20,6 +20,7 @@ body {
     height: 3rem;
     max-height: 4rem;
     color: #fff;
+    position: sticky;
 }
 .logo {
     font-family: Nunito;
