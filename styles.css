@@ -101,11 +101,16 @@ footer {
     .navbar ul{
         display: none;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
         position: absolute;
         width: 3rem;
-        top: 60px;
+        top: 40px;
         right: 20px;
         background: #2b2c28;
+        height: 90vh;
+        width: 50%;
         color: #fff;
         padding: 1rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
