@@ -100,10 +100,23 @@ footer {
     }
     .navbar ul{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 3rem;
+        top: 60px;
+        right: 20px;
+        background: #2b2c28;
+        color: #fff;
+        padding: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .navlinks.active {
+            display: flex;
     }
     .burger {
         margin-right: 0.4rem;
         display: block;
+        cursor: pointer;
     }
     #card {
         min-height: 30vh;
